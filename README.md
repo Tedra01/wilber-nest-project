@@ -8,7 +8,7 @@ Publicaciones: guarde los datos de las publicaciones publicadas por los usuarios
 Comentarios: Almacena los comentarios realizados en las publicaciones. Los campos incluyen id, contenido, etc.
 
 Rutas:
-El proyecto implementa las siguientes rutas:
+El proyecto tiene las siguientes rutas:
 
 /users: Permite acceder a las funcionalidades relacionadas con los usuarios. Las rutas disponibles son:
 
@@ -33,7 +33,7 @@ PUT /comments/:id: Actualiza los datos de un comentario existente.
 DELETE /comments/:id: Elimina un comentario.
 
 Seguridad:
-El proyecto implementa medidas de seguridad para proteger las rutas y limitar el acceso a ciertas funcionalidades. Se utilizan los siguientes mecanismos de seguridad:
+Se implementaron medidas de seguridad para proteger las rutas y limitar el acceso a ciertas funcionalidades. Se utilizan los siguientes mecanismos de seguridad:
 
 AuthGuard: un protector de autenticación que verifica que un usuario esté autenticado antes de permitir el acceso a una ruta protegida.
 
